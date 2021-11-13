@@ -35,6 +35,5 @@ test('Sort by health not to be', () => {
 
   sortChars(charList);
 
-  expect(expected).not.toBe(charList)
+  expect(expected).not.toBe(charList);
 });
-
